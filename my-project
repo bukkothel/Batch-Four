@@ -1,0 +1,24 @@
+
+print ("Hello")
+print ("Welcome to Weekly Quiz")
+print('''
+Q1 - In Python, what do you call a 'box' used to store data?
+a - text
+b - variable
+c - a shoe box
+d - Strings 
+''' )
+answer = input ().lower()
+if answer == "a" :
+ print(" No- text is a type of data" )
+elif answer == "b" :
+ print(" Correct!!" )
+elif answer == "c" :
+ print(" Don't be naughty! " )
+elif answer == "d" :
+ print(" No- interger is a data type for storing whole numbers:\n" )
+else:
+ print(" You didn't choose a, b, c, or d")
+
+print ("\n")
+print ("THANK YOU!! ")
